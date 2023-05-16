@@ -1,18 +1,53 @@
-<!-- HTML for static distribution bundle build -->
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Swagger UI</title>
-    <link rel="stylesheet" type="text/css" href="./dist/swagger-ui.css" />
-    <link rel="stylesheet" type="text/css" href="./dist/index.css" />
-    <link rel="icon" type="image/png" href="./dist/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="./dist/favicon-16x16.png" sizes="16x16" />
-  </head>
+<html>
+<head>
+  <title>PetStore Application API Documentation</title>
+  <style>
+    /* CSS for the dashboard layout */
+    body {
+      font-family: Arial, sans-serif;
+    }
 
-  <body>
-    <div id="swagger-ui"></div>
-    <a href="src/pet.html">Pet Doc</a>
-    <a href="src/store.html">Src Doc</a>
-  </body>
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .module-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .module-list li {
+      margin-bottom: 10px;
+    }
+
+    .module-list a {
+      display: block;
+      padding: 10px;
+      background-color: #f2f2f2;
+      color: #333;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .module-list a:hover {
+      background-color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>PetStore Application API Documentation</h1>
+    <ul class="module-list">
+      <li><a href="src/pet.html">Pet API Documentation</a></li>
+      <li><a href="src/store.html">Store API Documentation</a></li>
+    </ul>
+  </div>
+</body>
 </html>
