@@ -39,3 +39,4 @@ tags:
     description: Operations about user
 paths:
   - $ref: "./pet.yaml"
+  - $ref: "./store.yaml"
